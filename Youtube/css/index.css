@@ -1,0 +1,86 @@
+body{
+    zoom: 0.8;
+}
+
+.left_side{
+    display: inline-block;
+    height: 860px;
+    width: 50%;
+    background-color:transparent;
+    background-image:url('../images/background.jpg');
+    background-position: center;
+    background-size: 140%;
+    background-repeat: no-repeat;
+}
+
+.right_side{
+    height: 860px;
+    float:right;
+    width: 50%;
+    background-color:white;
+    text-align: center;
+}
+
+.left_side_minortext{
+    color: white;
+    text-align: center;
+    margin-top: 30%;
+    font-size: 30px;
+    margin-bottom: 0px;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.left_side_maintext{
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 80px;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.textboxSimple{
+    width: 400px;
+    height: auto;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+
+label{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#rightside_left{
+    display: inline-block;
+    height: 860px;
+    width: 50%;
+    background-color:transparent;
+    background-image: linear-gradient(to bottom left, #2E353B,#3F5487);
+}
+#rightside_right{
+    float:right;
+    height: 860px;
+    width: 50%;
+    background-color:transparent;
+    background-image: linear-gradient(to bottom right, #2E353B,#3F5487);
+}
+label{
+    color:white;
+}
+
+.button{
+    color: #3F5487;
+    font-size: 40px;
+    font-weight: 450;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius:10px;
+    width: 200px;
+    height: 60px;
+    border-color:#31326E;
+}
+

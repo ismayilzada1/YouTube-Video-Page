@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Youtube</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="navbar">
+            <div class="hamburgerMenu">
+                <img src="images/hamburger_menu.png" alt="PHOTO">
+            </div> 
+
+            <div class="logo">
+                <img src="images/youtube_logo.png">
+                <h1>MagaTube</h1>
+            </div>
+
+            <div class="searchBar">
+                <input type="search">
+                <button id="searchBtn">
+                    <img src="images/search_icon.png">
+                </button>
+            </div>
+
+            <div class="micBtn">
+                <button name="MicBtn">
+                    <img src="images/mic_icon.png">
+                </button>
+            </div>
+
+            <div class="CreateBtn">
+                <button name="CreateBtn">
+                    <img src="images/createBtn_icon.png">
+                </button>
+            </div>
+
+            <div class="BellBtn">
+                <button name="BellBtn">
+                    <img src="images/bell_icon.png">
+                </button>
+            </div>
+
+            <div class="ProfilePicture">
+                <button name="ProfileBtn">
+                    <img src="images/profilePicture.jpg">
+                </button>
+            </div>
+        </div>
+
+        <div class="leftSide">
+            <video id="MainVideo"  src="videos/Mercedes-Benz CLS 63 AMG _ NightRun.mp4" controls></video>
+
+            <h1 id="VideoTitle">Mercedes-Benz CLS 63 AMG | NightRun</h1>
+
+            <div class="videoBottomContainer">
+
+                <img id="ChannelImage" src="https://yt3.ggpht.com/ytc/AL5GRJV8XYL5p0pNM9-zDAyaO3uWdZaBgf3QlynfmVTvPw=s88-c-k-c0x00ffffff-no-rj">
+            
+                <div class="ChannelNameAndSubscribers">
+
+                <h2 id="ChannelName">GrandGrizzly</h2>
+
+                <h3 id="ChannelSubscribersCount">531 subscribers</h3>
+
+                </div>
+
+                <div class="SubscribeBtn">
+                    <button id="SubscribeBtn">Subscribe</button>
+                </div>
+
+                <div class="AllButtons">
+                    <button id="LikeBtn" name="unchecked">
+                            <img src="images/likeBtn_icon.png" alt="Like">
+                            <h3>1,5K</h3>
+                    </button>
+                    <button id="DislikeBtn" name="unchecked">
+                            <img src="images/dislikeBtn_icon.png" alt="Dislike">
+                    </button>
+
+                    <button id="ShareBtn">
+                        <img src="images/shareBtn_icon.png" alt="Share">
+                        <h3>Share</h3>
+                    </button>
+
+                    <button id="DownloadBtn">
+                        <img src="images/downloadBtn_icon.png" alt="Download">
+                        <h3>Download</h3>
+                    </button>
+
+                    <button id="ThreeDotBtn">
+                            <img src="images/threeDot_icon.png" alt="3Dot">
+                    </button>
+                    
+                </div>
+
+
+
+            </div>
+
+            <div class="VideoDescription">
+                <h3 id="ViewsCountAndDate">70,135 views  Dec 13, 2020</h3>
+                <h4 id="DescriptionText" style="white-space: pre-line">Staying consistent ain't my thing...
+
+                    Enjoy!!
+                    
+                    Instrumental:   
+                    
+                     • GTA IV Theme - So...  
+                    Instagram.com/narekmatshkalyan</h4>
+            </div>
+
+            <div class="CommentsTopContainer">
+                <h2 id="CommentsCount">3 Comments</h2>
+                <img src="images/sortBy_icon.png">
+                <h3 id="SortByText">Sort By</h2>
+            </div>
+
+            <div class="AddCommentSection">
+                <div class="ProfilePictureinComment">
+                    <button name="ProfileBtninComment">
+                        <img src="images/profilePicture.jpg">
+                    </button>
+                </div>
+
+                <div class="Commentinput">
+                    <input id="Commentinput" placeholder="Add a comment..." type="text">
+                </div>
+            </div>
+
+            <div class="comments">
+                <div class="comment">
+                    <button id="ProfilePictureButtoninComments">
+                    <img id="ProfilePictureinComments" src="images/profilePicture.jpg">
+                    </button>
+                    <div class="ChannelNameAndCommentDate">
+                        <h2 id="CommentChannelName">Gustavo Fring</h2>
+                        <h3 id="CommentDate">1 years ago</h3>
+                    </div>
+                    <h4 id="CommentText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                         eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minim veniam, quis</h4>
+                    
+                    <button class="LikeBtnComment">
+                            <img src="images/likeBtn_icon.png" alt="Like">
+                    </button>
+                    <h5 id="CommentLikeCount">524</h5>
+                    
+                    <button class="DislikeBtnComment">
+                        <img src="images/dislikeBtn_icon.png" alt="Dislike">
+                    </button>
+
+                    <button id="ReplyBtn">
+                        Reply
+                    </button>
+
+                </div>
+
+                <div class="comment">
+                    <button id="ProfilePictureButtoninComments">
+                    <img id="ProfilePictureinComments" src="images/profilePicture.jpg">
+                    </button>
+                    <div class="ChannelNameAndCommentDate">
+                        <h2 id="CommentChannelName">Gustavo Fring</h2>
+                        <h3 id="CommentDate">3 years ago</h3>
+                    </div>
+                    <h4 id="CommentText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                         eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minim veniam, quis</h4>
+                    
+                    <button class="LikeBtnComment">
+                            <img src="images/likeBtn_icon.png" alt="Like">
+                    </button>
+                    <h5 id="CommentLikeCount">524</h5>
+                    
+                    <button class="DislikeBtnComment">
+                        <img src="images/dislikeBtn_icon.png" alt="Dislike">
+                    </button>
+
+                    <button id="ReplyBtn">
+                        Reply
+                    </button>
+
+                </div>
+
+                <div class="comment">
+                    <button id="ProfilePictureButtoninComments">
+                    <img id="ProfilePictureinComments" src="images/profilePicture.jpg">
+                    </button>
+                    <div class="ChannelNameAndCommentDate">
+                        <h2 id="CommentChannelName">Gustavo Fring</h2>
+                        <h3 id="CommentDate">2 months ago</h3>
+                    </div>
+                    <h4 id="CommentText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                         eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minim veniam, quis</h4>
+                    
+                    <button class="LikeBtnComment">
+                            <img src="images/likeBtn_icon.png" alt="Like">
+                    </button>
+                    <h5 id="CommentLikeCount">524</h5>
+                    
+                    <button class="DislikeBtnComment">
+                        <img src="images/dislikeBtn_icon.png" alt="Dislike">
+                    </button>
+
+                    <button id="ReplyBtn">
+                        Reply
+                    </button>
+
+                </div>
+
+                
+            </div>
+
+        </div>
+
+
+
+        <div class="rightSide">
+            <div class="flex-container">    
+                <div class="sideVideo">
+                    <video  src="videos/JDM CAR EDIT _ R35 _ Alors on Danse.mp4" class="videosAtLeftSide" poster="videos/posters/gtr.png"></video>
+                    <h2 class="VideoTitle">JDM CAR EDIT |R35| Alors on Danse</h2>
+                    <h3 class="ChannelName">stance</h3>
+                    <h4 class="ViewsAndDate">20k views  1 years ago</h4>
+                </div>
+
+
+                <div class="sideVideo">
+                    <video  src="videos/D I S A S T E R.mp4" class="videosAtLeftSide" poster="videos/posters/blue_gtr.png"></video>
+                    <h2 class="VideoTitle">D I S A S T E R</h2>
+                    <h3 class="ChannelName">Zxold</h3>
+                    <h4 class="ViewsAndDate">24k views  5 months ago</h4>
+                </div>
+
+
+                <div class="sideVideo">
+                    <video  src="videos/Demon BMW E34 M540i V8 - Lalala (Roberto Kan Remix) [4KHD Music Video Edit].mp4" class="videosAtLeftSide" poster="videos/posters/bmw.png"></video>
+                    <h2 class="VideoTitle">Demon BMW E34 M540i V8</h2>
+                    <h3 class="ChannelName">Bmw edits</h3>
+                    <h4 class="ViewsAndDate">32k views  3 years ago</h4>
+                </div>
+
+
+                <div class="sideVideo">
+                    <video  src="videos/𝙰𝚄𝙳𝙸 𝚁𝟾 𝙴𝙳𝙸𝚃 _ 𝚋𝚢 𝚠𝚘𝚢𝚜𝚑𝚗𝚒𝚜.mp4" class="videosAtLeftSide" poster="videos/posters/audi.png"></video>
+                    <h2 class="VideoTitle">𝙰𝚄𝙳𝙸 𝚁𝟾 𝙴𝙳𝙸𝚃 | 𝚋𝚢 𝚠𝚘𝚢𝚜𝚑𝚗𝚒𝚜</h2>
+                    <h3 class="ChannelName">Audi edits</h3>
+                    <h4 class="ViewsAndDate">30k views  1 year ago</h4>
+                </div>
+
+                <div class="sideVideo">
+                    <video  src="videos/30 seconds _ Drift x Stunt by 86 Club UAE.mp4" class="videosAtLeftSide" poster="videos/posters/uaeDrift.png"></video>
+                    <h2 class="VideoTitle">Drift x Stunt by 86 Club UAE</h2>
+                    <h3 class="ChannelName">UAEHorsepower</h3>
+                    <h4 class="ViewsAndDate">18k views  5 years ago</h4>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script>
+
+        window.onload=function(){
+            const videos=document.getElementsByClassName("videosAtLeftSide");
+            var mainvideo=document.getElementById("MainVideo");
+
+            for (let i = 0; i < videos.length; i++) {
+                videos[i].onmouseover=function(){
+                    this.play();
+                }
+                videos[i].onmouseout=function(){
+                    this.pause();
+                }
+                videos[i].onclick=function(){
+                    mainvideo=videos[i];
+                }
+            }
+
+
+
+            var Likebtn=document.getElementById("LikeBtn");
+            var Dislikebtn=document.getElementById("DislikeBtn");
+
+
+
+            LikeBtn.onclick=function(){
+
+                if(Dislikebtn.getAttribute('name')=='unchecked'){
+                    if(LikeBtn.getAttribute('name')== 'unchecked'){
+                        LikeBtn.getElementsByTagName('img')[0].src="images/likedBtn.png";
+                        LikeBtn.setAttribute('name','checked');
+                    }
+                    else{
+                      LikeBtn.getElementsByTagName('img')[0].src="images/likeBtn_icon.png";
+                      LikeBtn.setAttribute('name','unchecked');
+                    }
+                }
+                else{
+                    LikeBtn.getElementsByTagName('img')[0].src="images/likedBtn.png";
+                    LikeBtn.setAttribute('name','checked');
+
+                    Dislikebtn.getElementsByTagName('img')[0].src="images/dislikeBtn_icon.png";
+                    Dislikebtn.setAttribute('name','unchecked');
+                }
+            }
+
+
+            
+            Dislikebtn.onclick=function(){
+
+                if(LikeBtn.getAttribute('name')=='unchecked'){
+                    if(Dislikebtn.getAttribute('name')== 'unchecked'){
+                        Dislikebtn.getElementsByTagName('img')[0].src="images/dislikedBtn.png";
+                        Dislikebtn.setAttribute('name','checked');
+                    }
+                    else{
+                        Dislikebtn.getElementsByTagName('img')[0].src="images/dislikeBtn_icon.png";
+                        Dislikebtn.setAttribute('name','unchecked');
+                    }
+                }
+                else{
+                    Dislikebtn.getElementsByTagName('img')[0].src="images/dislikedBtn.png";
+                    Dislikebtn.setAttribute('name','checked');
+                
+                    Likebtn.getElementsByTagName('img')[0].src="images/likeBtn_icon.png";
+                    Likebtn.setAttribute('name','unchecked');
+                }
+
+            }
+
+        }
+
+    </script>
+
+
+</body>
+</html>
